@@ -8,8 +8,8 @@ import base64
 
 st.set_page_config(page_title='Jathan Torres Resume', page_icon=":pencil:", layout='wide', initial_sidebar_state="collapsed")
 
-profile_photo = ('/Users/jathantorres/Movies/AUDIO SURVIVOR APPLICATION VIDEO/Photo of Jathan Torres.jpg')
-uchicago_logo = ('/Users/jathantorres/Downloads/uchicago_logo.webp')
+profile_photo = ('Photo of Jathan Torres.jpg')
+# uchicago_logo = ('/Users/jathantorres/Downloads/uchicago_logo.webp')
 def load_lottie(url):
     r = requests.get(url)
     if r.status_code != 200:
