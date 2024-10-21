@@ -22,7 +22,8 @@ lottie_animation = load_lottie('https://lottie.host/9881288e-8f85-467e-aaff-4e96
 
 text =  ('''
         ## :violet[Digital Resume]
-        # :blue-background[Jathan Torres] ---------- [LinkedIn Profile](https://www.linkedin.com/in/jathan-torres-5a27571a1/)  
+        # :blue-background[Jathan Torres]
+        [LinkedIn Profile](https://www.linkedin.com/in/jathan-torres-5a27571a1/)  
         I graduated from the :red-background[University of Chicago] in the summer of 2023 with a B.A. in :green[Economics] and I'm extremely
         grateful for my experience. Now for the past year and a half I have been working at a marketing agency (MERGE)
         as an Associate Media Accounting Analyst.
