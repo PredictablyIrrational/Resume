@@ -70,6 +70,7 @@ text =  ('''
             within Excel
         - **Data Visualization Tools (such as Streamlit which powers this site)**
         - **Meta Ads Manager**
+        - **GitHub**
         - **Power BI**
         
 ''')
