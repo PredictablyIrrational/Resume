@@ -70,6 +70,8 @@ with st.container():
             mime='application/octet-stream'
         )
         st.write('✉️', email_address)
+        st.link_button(label='LinkedIn Profile', url='https://www.linkedin.com/in/jathan-torres-5a27571a1/')
+
 
 with st.container():
     st.header('Experience and Qualifications')
