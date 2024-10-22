@@ -42,7 +42,7 @@ links = {
     "LinkedIn": "https://www.linkedin.com/in/jathan-torres-5a27571a1/"
 }
 
-st.set_page_config(page_title=page_title, page_icon=page_icon, layout='wide', initial_sidebar_state="collapsed")
+st.set_page_config(page_title=page_title, page_icon=page_icon, layout='centered', initial_sidebar_state="collapsed")
 
 
 # HEADER SECTION
@@ -69,8 +69,8 @@ with st.container():
             file_name=resume_file.name,
             mime='application/octet-stream'
         )
-        st.write('✉️', email_address)
         st.link_button(label='LinkedIn Profile', url='https://www.linkedin.com/in/jathan-torres-5a27571a1/')
+        st.write('✉️', email_address)
 
 
 with st.container():
